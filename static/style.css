@@ -1,0 +1,55 @@
+.top{
+    display: flex;
+
+}
+
+.add_remove{
+    display:flex;
+}
+
+
+.top_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    color: #dae0de;
+    background-color:#363837;
+    border: 2px solid #252626;
+    border-radius: 20px;
+
+}
+
+.add_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 30px;
+    font-size: 10px;
+    width: 75px;
+    height: 25px;
+    color: #dae0de;
+    background-color:#1d9936;
+    border: 2px solid #064f15;
+    border-radius: 20px;
+}
+
+.remove_button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 30px;
+    font-size: 10px;
+    width: 75px;
+    height: 25px;
+    color: #dae0de;
+    background-color:#d10015;
+    border: 2px solid #85010f;
+    border-radius: 20px;
+}
+

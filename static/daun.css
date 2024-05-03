@@ -1,0 +1,15 @@
+@keyframes flash {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+}
+
+.flashing-text {
+  animation: flash 1s infinite;
+}

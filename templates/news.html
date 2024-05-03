@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="static/style.css">
+    <title></title>
+    </head>
+<body>
+
+    {% include 'hat.html' %}
+    {% for i in posts %}
+        <h2>{{ i.title }}</h2>
+        <p>{{ i.content }}</p>
+        <a href="/delete/{{ i.id }}" class="remove_button">Удалить</a>
+    {% endfor %}
+
+    <div class="add_remove">
+        <button onclick="window.location.href='/add'" class="add_button">добавить запись</button>
+
+    </div>
+{% include 'daun.html' %}
+</body>
+</html>
